@@ -1,0 +1,29 @@
+
+
+#app {
+
+ background-color: transparent;
+  
+}
+body{
+  background: black;
+ 
+}
+
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./background.svg");
+  background-size: cover;
+  background-repeat: repeat ;
+  
+
+   /* Ensure the background is behind all other content */
+  opacity: 0.4; /* Adjust opacity as needed */
+}
+
