@@ -33,3 +33,4 @@ npm run build
 ```sh
 npm run lint
 ```
+navigate to link shown in console to view the project out put 

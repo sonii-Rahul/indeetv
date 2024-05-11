@@ -79,12 +79,13 @@ const forgotPassword = () => {
   display: block;
   color: #1A68FF;
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
-  width: 94%;
+  width: 92%;
   padding: 10px;
   border: 2px solid #1C1C1E;
   background: #1c1c1e;

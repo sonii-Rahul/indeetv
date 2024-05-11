@@ -42,7 +42,8 @@ import Form from './components/form.vue'
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.80);
   border-radius: 4px;
-  height: 90vh;
+  height: 94vh;
+  min-height: 600px;
   max-height: 620px;
   width: 90%; 
   max-width: 400px; 
@@ -107,7 +108,8 @@ import Form from './components/form.vue'
   display: flex;
   flex-direction: column;
   align-content: space-evenly;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .platform p {
@@ -128,25 +130,37 @@ import Form from './components/form.vue'
 .socials {
   display: flex;
   justify-content: space-around;
-  padding: 0 40px;
+  padding: 5px 20px 5px 20px;
+  
 }
 
 .socials img {
   width: 61.92px;
-  height: 28px;
+  height: 18px;
 }
+
+
 
 @media (max-height: 700px) {
   .container {
-    height: 620px;
-    width: 350px;
+   
+    top: 20rem;
+    bottom: 20rem;
+    min-height: 620px;
+
+
   }
+
+
 }
+
+
 
 @media (max-width: 400px) {
   .container {
     width: 320px;
-    height: 580px;
+    height: 550px;
+    min-height: 580px;
   }
 
   .heading {
@@ -169,13 +183,18 @@ import Form from './components/form.vue'
   }
 
   .socials img {
-  width: 50px;
-  height: 22px;
+  width: 40px;
+  height: 16px;
+
 }
 .fixedcontainer {
   height: 14%;
   width: 100%;
   background-color: #2D3137;
+}
+.socials {
+  padding: 0px 20px 0px 20px;
+  
 }
 }
 </style>
